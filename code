@@ -4,7 +4,7 @@
 
 main()  {
 
-	int rollADie1, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
+	int rollADie, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
 	srand(time(NULL));  // call this only once – seed the random generator
 
 	do
