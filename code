@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
- void main()  {
+ int main()  {
 
 	int rollADie, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
 	srand(time(NULL));  // call this only once – seed the random generator
@@ -120,4 +120,5 @@
 	printf("Thank you for Playing\n");
 
 	system("pause");
+	return 0;
 }
