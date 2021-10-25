@@ -8,7 +8,7 @@
 
 	do
 	{
-		rollADie1 = rand() % 6 + 1;  // in the range of 1 - 6
+		rollADie1 = rand() % 6 + 1;  // in the range from 1 - 6
 		rollADie2 = rand() % 6 + 1;  // in the range of 1 - 6
 
 		printf("Dice #1 is %i\n", rollADie1);
