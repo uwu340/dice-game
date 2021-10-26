@@ -1,6 +1,6 @@
   #include <stdio.h>
 #include<conio.h>
-
+#include<math.h>
  int main()  {
 
 	int rollADie, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
