@@ -16,10 +16,12 @@
 		totalDice = rollADie1 + rollADie2;
 		printf("The total of both dice is %i\n", totalDice);
 
-		switch (totalDice)  {
-		case 2:
-			end = 2;
+                if(total dice == 2){
+		   end = 2;
 			break;
+		}
+		switch (totalDice)  {
+		
 		case 3:
 			end = 3;
 			break;
