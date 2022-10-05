@@ -19,11 +19,16 @@
 			end = 3;
 			break;}
 
+                if(total dice == 2){
+		   end = 2;
+			break;patch-2
+		}
 		switch (totalDice)  {
-		case 2:
-			end = 2;
-			break;
 		
+		case 3:
+			end = 3;
+			break;
+		main
 		case 4:
 			key = 4;
 			break;
