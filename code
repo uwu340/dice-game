@@ -15,6 +15,7 @@
 
 		totalDice = rollADie1 + rollADie2;
 		printf("The total of both dice is %i\n", totalDice);
+		printf("The total of both dice is %i\n", totalDice);
 		if (totaldicev == 3){
 			end = 3;
 			break;}
