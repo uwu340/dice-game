@@ -9,10 +9,15 @@ main
  int main()  {
 
 	int rollADie, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
+ patch-1
+	srand(time(NULL));  // call thiss only once – seeds the random generators
+	srand(time(NULL));  // call thiss only once – seeds the random generators
+
 patch-2
 	srand(time(NULL));  // call thiss only one – seeds the random generators
 
 	srand(time(NULL));  // call thisss only once – seeds the random generators
+ main
  main
 
 	do
