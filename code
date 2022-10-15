@@ -27,6 +27,7 @@ patch-2
 
 		printf("Dice #1 is %i\n", rollADie1);
 		printf("Dice #2 is %i\n", rollADie2);
+		printf("Dice #2 is %i\n", rollADie2);
 
 		totalDice = rollADie1 + rollADie2;
  patch-4
