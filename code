@@ -1,9 +1,24 @@
-  #include <stdio.h>
+ patch-2
+ #include <stdio.h>
+ #include <stdio.h>
 
+  #include <stdio.h>
+  #include <conio.h>
+
+main
  int main()  {
 
 	int rollADie, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
+ patch-1
 	srand(time(NULL));  // call thiss only once – seeds the random generators
+	srand(time(NULL));  // call thiss only once – seeds the random generators
+
+patch-2
+	srand(time(NULL));  // call thiss only one – seeds the random generators
+
+	srand(time(NULL));  // call thisss only once – seeds the random generators
+ main
+ main
 
 	do
 	{
@@ -14,8 +29,12 @@
 		printf("Dice #2 is %i\n", rollADie2);
 
 		totalDice = rollADie1 + rollADie2;
+ patch-4
 		printf("The total of both dice is %i\n", totalDice);
 		printf("The total of both dice is %i\n", totalDice);
+
+		printf("The total no of both dice is %i\n", totalDice);
+ main
 		if (totaldicev == 3){
 			end = 3;
 			break;}
