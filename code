@@ -1,5 +1,11 @@
+ patch-2
  #include <stdio.h>
  #include <stdio.h>
+
+  #include <stdio.h>
+  #include <conio.h>
+
+main
  int main()  {
 
 	int rollADie, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
